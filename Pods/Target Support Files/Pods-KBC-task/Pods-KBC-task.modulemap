@@ -1,0 +1,6 @@
+framework module Pods_KBC_task {
+  umbrella header "Pods-KBC-task-umbrella.h"
+
+  export *
+  module * { export * }
+}

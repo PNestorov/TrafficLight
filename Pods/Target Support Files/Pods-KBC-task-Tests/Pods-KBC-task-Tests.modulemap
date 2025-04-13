@@ -1,0 +1,6 @@
+framework module Pods_KBC_task_Tests {
+  umbrella header "Pods-KBC-task-Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

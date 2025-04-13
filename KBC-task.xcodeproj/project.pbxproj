@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73B53B062E78C5ADE59936FE /* Pods_KBC_task_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64B34F5917474AEF5EAA194 /* Pods_KBC_task_Tests.framework */; };
+		857FCEE72DABC74D001068BF /* Requirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 857FCEE52DABC74D001068BF /* Requirements.txt */; };
+		857FCF2C2DAC3E5C001068BF /* Tech Stack & Architecture.txt in Resources */ = {isa = PBXBuildFile; fileRef = 857FCF2B2DAC3E5C001068BF /* Tech Stack & Architecture.txt */; };
+		8AF62CA9C97307685E468F7B /* Pods_KBC_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9B05C39F27BF9A677436E /* Pods_KBC_task.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85C65F752DAA698A0091D7BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E496302DA7C78500829F7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85E496372DA7C78500829F7F;
+			remoteInfo = "KBC-task";
+		};
+		85FF325F2DAAB6C30050AB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E496302DA7C78500829F7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85E496372DA7C78500829F7F;
+			remoteInfo = "KBC-task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A792D723BA7663D67326146 /* Pods_KBC_taskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBC_taskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6BA0975FA67F7A5FBAD432 /* Pods-KBC-task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBC-task.debug.xcconfig"; path = "Target Support Files/Pods-KBC-task/Pods-KBC-task.debug.xcconfig"; sourceTree = "<group>"; };
+		58101446C2A52906D3764B13 /* Pods-KBC-task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBC-task.release.xcconfig"; path = "Target Support Files/Pods-KBC-task/Pods-KBC-task.release.xcconfig"; sourceTree = "<group>"; };
+		6861747696729A9E9597A95A /* Pods-KBC-task-KBC-taskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBC-task-KBC-taskUITests.release.xcconfig"; path = "Target Support Files/Pods-KBC-task-KBC-taskUITests/Pods-KBC-task-KBC-taskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B96BCD5D4A05AF8EAAC0E69 /* Pods-KBC-taskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBC-taskTests.debug.xcconfig"; path = "Target Support Files/Pods-KBC-taskTests/Pods-KBC-taskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		857FCEE52DABC74D001068BF /* Requirements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Requirements.txt; sourceTree = "<group>"; };
+		857FCF2B2DAC3E5C001068BF /* Tech Stack & Architecture.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Tech Stack & Architecture.txt"; sourceTree = "<group>"; };
+		85C65F712DAA698A0091D7BA /* KBC-task-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KBC-task-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E496382DA7C78500829F7F /* KBC-task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KBC-task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FF32592DAAB6C30050AB19 /* KBC-task-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KBC-task-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F0CB6537D169E2D9F53DC0 /* Pods-KBC-task-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBC-task-Tests.release.xcconfig"; path = "Target Support Files/Pods-KBC-task-Tests/Pods-KBC-task-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9951C2B2CD56282A377BBF52 /* Pods-KBC-task-KBC-taskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBC-task-KBC-taskUITests.debug.xcconfig"; path = "Target Support Files/Pods-KBC-task-KBC-taskUITests/Pods-KBC-task-KBC-taskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A64B34F5917474AEF5EAA194 /* Pods_KBC_task_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBC_task_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F9B05C39F27BF9A677436E /* Pods_KBC_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBC_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95FC94D48F7ECA964886EED /* Pods-KBC-taskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBC-taskTests.release.xcconfig"; path = "Target Support Files/Pods-KBC-taskTests/Pods-KBC-taskTests.release.xcconfig"; sourceTree = "<group>"; };
+		E17F3E6FEE5285A0E038B833 /* Pods-KBC-task-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBC-task-Tests.debug.xcconfig"; path = "Target Support Files/Pods-KBC-task-Tests/Pods-KBC-task-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E84AEC743280FEC21AEBCF4B /* Pods_KBC_task_KBC_taskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBC_task_KBC_taskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		857FCF202DABE764001068BF /* Exceptions for "KBC-task" folder in "KBC-task-UITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Common/Helpers/Constants.swift,
+			);
+			target = 85FF32582DAAB6C30050AB19 /* KBC-task-UITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		85C65F722DAA698A0091D7BA /* KBC-task-Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KBC-task-Tests";
+			sourceTree = "<group>";
+		};
+		85E4963A2DA7C78500829F7F /* KBC-task */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				857FCF202DABE764001068BF /* Exceptions for "KBC-task" folder in "KBC-task-UITests" target */,
+			);
+			path = "KBC-task";
+			sourceTree = "<group>";
+		};
+		85FF325A2DAAB6C30050AB19 /* KBC-task-UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KBC-task-UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85C65F6E2DAA698A0091D7BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B53B062E78C5ADE59936FE /* Pods_KBC_task_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E496352DA7C78500829F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF62CA9C97307685E468F7B /* Pods_KBC_task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FF32562DAAB6C30050AB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C948BA1DC2EF2E4AC3C7A2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7F9B05C39F27BF9A677436E /* Pods_KBC_task.framework */,
+				E84AEC743280FEC21AEBCF4B /* Pods_KBC_task_KBC_taskUITests.framework */,
+				1A792D723BA7663D67326146 /* Pods_KBC_taskTests.framework */,
+				A64B34F5917474AEF5EAA194 /* Pods_KBC_task_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85E4962F2DA7C78500829F7F = {
+			isa = PBXGroup;
+			children = (
+				857FCEE52DABC74D001068BF /* Requirements.txt */,
+				857FCF2B2DAC3E5C001068BF /* Tech Stack & Architecture.txt */,
+				85E4963A2DA7C78500829F7F /* KBC-task */,
+				85C65F722DAA698A0091D7BA /* KBC-task-Tests */,
+				85FF325A2DAAB6C30050AB19 /* KBC-task-UITests */,
+				85E496392DA7C78500829F7F /* Products */,
+				B13535F8B37C5452C82730AD /* Pods */,
+				1C948BA1DC2EF2E4AC3C7A2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85E496392DA7C78500829F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85E496382DA7C78500829F7F /* KBC-task.app */,
+				85C65F712DAA698A0091D7BA /* KBC-task-Tests.xctest */,
+				85FF32592DAAB6C30050AB19 /* KBC-task-UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13535F8B37C5452C82730AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0975FA67F7A5FBAD432 /* Pods-KBC-task.debug.xcconfig */,
+				58101446C2A52906D3764B13 /* Pods-KBC-task.release.xcconfig */,
+				9951C2B2CD56282A377BBF52 /* Pods-KBC-task-KBC-taskUITests.debug.xcconfig */,
+				6861747696729A9E9597A95A /* Pods-KBC-task-KBC-taskUITests.release.xcconfig */,
+				7B96BCD5D4A05AF8EAAC0E69 /* Pods-KBC-taskTests.debug.xcconfig */,
+				C95FC94D48F7ECA964886EED /* Pods-KBC-taskTests.release.xcconfig */,
+				E17F3E6FEE5285A0E038B833 /* Pods-KBC-task-Tests.debug.xcconfig */,
+				90F0CB6537D169E2D9F53DC0 /* Pods-KBC-task-Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85C65F702DAA698A0091D7BA /* KBC-task-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C65F772DAA698A0091D7BA /* Build configuration list for PBXNativeTarget "KBC-task-Tests" */;
+			buildPhases = (
+				7D41CDE945989BB532A571D3 /* [CP] Check Pods Manifest.lock */,
+				85C65F6D2DAA698A0091D7BA /* Sources */,
+				85C65F6E2DAA698A0091D7BA /* Frameworks */,
+				85C65F6F2DAA698A0091D7BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85C65F762DAA698A0091D7BA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				85C65F722DAA698A0091D7BA /* KBC-task-Tests */,
+			);
+			name = "KBC-task-Tests";
+			productName = "KBC-task-Tests";
+			productReference = 85C65F712DAA698A0091D7BA /* KBC-task-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85E496372DA7C78500829F7F /* KBC-task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E4965C2DA7C78700829F7F /* Build configuration list for PBXNativeTarget "KBC-task" */;
+			buildPhases = (
+				FD72EFE2B29F8DBE236F4CD5 /* [CP] Check Pods Manifest.lock */,
+				85E496342DA7C78500829F7F /* Sources */,
+				85E496352DA7C78500829F7F /* Frameworks */,
+				85E496362DA7C78500829F7F /* Resources */,
+				B4E85BCB771E7BF61E8D3C6B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				85E4963A2DA7C78500829F7F /* KBC-task */,
+			);
+			name = "KBC-task";
+			productName = "KBC-task";
+			productReference = 85E496382DA7C78500829F7F /* KBC-task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85FF32582DAAB6C30050AB19 /* KBC-task-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FF32612DAAB6C30050AB19 /* Build configuration list for PBXNativeTarget "KBC-task-UITests" */;
+			buildPhases = (
+				85FF32552DAAB6C30050AB19 /* Sources */,
+				85FF32562DAAB6C30050AB19 /* Frameworks */,
+				85FF32572DAAB6C30050AB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FF32602DAAB6C30050AB19 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				85FF325A2DAAB6C30050AB19 /* KBC-task-UITests */,
+			);
+			name = "KBC-task-UITests";
+			packageProductDependencies = (
+			);
+			productName = "KBC-task-UITests";
+			productReference = 85FF32592DAAB6C30050AB19 /* KBC-task-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85E496302DA7C78500829F7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					85C65F702DAA698A0091D7BA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 85E496372DA7C78500829F7F;
+					};
+					85E496372DA7C78500829F7F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					85FF32582DAAB6C30050AB19 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 85E496372DA7C78500829F7F;
+					};
+				};
+			};
+			buildConfigurationList = 85E496332DA7C78500829F7F /* Build configuration list for PBXProject "KBC-task" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85E4962F2DA7C78500829F7F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 85E496392DA7C78500829F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85E496372DA7C78500829F7F /* KBC-task */,
+				85C65F702DAA698A0091D7BA /* KBC-task-Tests */,
+				85FF32582DAAB6C30050AB19 /* KBC-task-UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85C65F6F2DAA698A0091D7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E496362DA7C78500829F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857FCF2C2DAC3E5C001068BF /* Tech Stack & Architecture.txt in Resources */,
+				857FCEE72DABC74D001068BF /* Requirements.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FF32572DAAB6C30050AB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D41CDE945989BB532A571D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KBC-task-Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E85BCB771E7BF61E8D3C6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KBC-task/Pods-KBC-task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KBC-task/Pods-KBC-task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KBC-task/Pods-KBC-task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD72EFE2B29F8DBE236F4CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KBC-task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85C65F6D2DAA698A0091D7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E496342DA7C78500829F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FF32552DAAB6C30050AB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85C65F762DAA698A0091D7BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85E496372DA7C78500829F7F /* KBC-task */;
+			targetProxy = 85C65F752DAA698A0091D7BA /* PBXContainerItemProxy */;
+		};
+		85FF32602DAAB6C30050AB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85E496372DA7C78500829F7F /* KBC-task */;
+			targetProxy = 85FF325F2DAAB6C30050AB19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85C65F782DAA698A0091D7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17F3E6FEE5285A0E038B833 /* Pods-KBC-task-Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nestorovengineering.KBC-task-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBC-task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KBC-task";
+			};
+			name = Debug;
+		};
+		85C65F792DAA698A0091D7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F0CB6537D169E2D9F53DC0 /* Pods-KBC-task-Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nestorovengineering.KBC-task-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBC-task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KBC-task";
+			};
+			name = Release;
+		};
+		85E4965A2DA7C78700829F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85E4965B2DA7C78700829F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85E4965D2DA7C78700829F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6BA0975FA67F7A5FBAD432 /* Pods-KBC-task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Traffic light";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nestorovengineering.KBC-task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85E4965E2DA7C78700829F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58101446C2A52906D3764B13 /* Pods-KBC-task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Traffic light";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nestorovengineering.KBC-task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85FF32622DAAB6C30050AB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nestorovengineering.KBC-task-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KBC-task";
+			};
+			name = Debug;
+		};
+		85FF32632DAAB6C30050AB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nestorovengineering.KBC-task-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KBC-task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85C65F772DAA698A0091D7BA /* Build configuration list for PBXNativeTarget "KBC-task-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C65F782DAA698A0091D7BA /* Debug */,
+				85C65F792DAA698A0091D7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E496332DA7C78500829F7F /* Build configuration list for PBXProject "KBC-task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E4965A2DA7C78700829F7F /* Debug */,
+				85E4965B2DA7C78700829F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E4965C2DA7C78700829F7F /* Build configuration list for PBXNativeTarget "KBC-task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E4965D2DA7C78700829F7F /* Debug */,
+				85E4965E2DA7C78700829F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FF32612DAAB6C30050AB19 /* Build configuration list for PBXNativeTarget "KBC-task-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FF32622DAAB6C30050AB19 /* Debug */,
+				85FF32632DAAB6C30050AB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85E496302DA7C78500829F7F /* Project object */;
+}

@@ -1,0 +1,21 @@
+
+Languages & Frameworks:
+    - Swift, SwiftUI, and Combine for reactive UI updates.
+
+Architecture:
+    - Clean Architecture combined with MVVM provides clear separation of concerns.
+        - Domain: Core business logic and use case definitions.
+        - Data: Implementation of repositories and data handling.
+        - UI: SwiftUI-based views with MVVM.
+
+Navigation:
+    - The Coordinator pattern centralizes navigation logic between screens.
+
+Dependency Injection:
+    - Factory (integrated via CocoaPods) is used to manage and inject dependencies, facilitating easy swapping of real and test implementations.
+
+Testing:
+    - XCTest for Unit and UI testing.
+
+Compatibility:
+    - Designed for iOS 16 (compatible with the current and two previous iOS versions)
